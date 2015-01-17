@@ -1,5 +1,5 @@
 require "spec_helper"
 
-describe Blankgem do
+describe Kindara do
 
 end

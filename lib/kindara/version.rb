@@ -1,3 +1,3 @@
-module Blankgem
+module Kindara
   VERSION = "1.0.0"
 end

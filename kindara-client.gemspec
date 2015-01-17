@@ -3,16 +3,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "blankgem/version"
+require "kindara/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "blankgem"
-  spec.version       = Blankgem::VERSION
+  spec.name          = "kindara"
+  spec.version       = Kindara::VERSION
   spec.authors       = ["Kurtis Rainbolt-Greene"]
   spec.email         = ["me@kurtisrainboltgreene.name"]
   spec.summary       = %q{TODO: Write a gem summary}
   spec.description   = spec.summary
-  spec.homepage      = "http://krainboltgreene.github.io/blankgem"
+  spec.homepage      = "http://krainboltgreene.github.io/kindara"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"]
@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = Dir["test/**/*", "spec/**/*"]
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency "http", "0.7.1"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rake", "~> 10.1"
