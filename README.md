@@ -13,8 +13,7 @@ kindara
   - [![Version](http://img.shields.io/gem/v/kindara.svg?style=flat-square)](https://rubygems.org/gems/kindara)
 
 
-TODO: Write a gem description
-
+This gem will allow users to access her own Kindara data through the Kindara API.
 
 Using
 =====
