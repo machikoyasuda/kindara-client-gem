@@ -1,19 +1,19 @@
 kindara
 --------
 
-  - [![Quality](http://img.shields.io/codeclimate/github/machikoyasuda/kindara.gem.svg?style=flat-square)](https://codeclimate.com/github/machikoyasuda/kindara.gem)
-  - [![Coverage](http://img.shields.io/codeclimate/coverage/github/machikoyasuda/kindara.gem.svg?style=flat-square)](https://codeclimate.com/github/machikoyasuda/kindara.gem)
-  - [![Build](http://img.shields.io/travis-ci/machikoyasuda/kindara.gem.svg?style=flat-square)](https://travis-ci.org/machikoyasuda/kindara.gem)
-  - [![Dependencies](http://img.shields.io/gemnasium/machikoyasuda/kindara.gem.svg?style=flat-square)](https://gemnasium.com/machikoyasuda/kindara.gem)
+  - [![Code Climate](https://codeclimate.com/github/machikoyasuda/kindara-client-gem/badges/gpa.svg)](https://codeclimate.com/github/machikoyasuda/kindara-client-gem)
+  - [![Test Coverage](https://codeclimate.com/github/machikoyasuda/kindara-client-gem/badges/coverage.svg)](https://codeclimate.com/github/machikoyasuda/kindara-client-gem)
+  - [![Build](http://img.shields.io/travis-ci/machikoyasuda/kindara-client-gem.svg?style=flat-square)](https://travis-ci.org/machikoyasuda/kindara-client-gem)
+  - [![Dependencies](http://img.shields.io/gemnasium/machikoyasuda/kindara-client-gem.svg?style=flat-square)](https://gemnasium.com/machikoyasuda/kindara-client-gem)
   - [![Downloads](http://img.shields.io/gem/dtv/kindara.svg?style=flat-square)](https://rubygems.org/gems/kindara)
-  - [![Tags](http://img.shields.io/github/tag/machikoyasuda/kindara.gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara.gem/tags)
-  - [![Releases](http://img.shields.io/github/release/machikoyasuda/kindara.gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara.gem/releases)
-  - [![Issues](http://img.shields.io/github/issues/machikoyasuda/kindara.gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara.gem/issues)
+  - [![Tags](http://img.shields.io/github/tag/machikoyasuda/kindara-client-gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara-client-gem/tags)
+  - [![Releases](http://img.shields.io/github/release/machikoyasuda/kindara-client-gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara-client-gem/releases)
+  - [![Issues](http://img.shields.io/github/issues/machikoyasuda/kindara-client-gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara-client-gem/issues)
   - [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
   - [![Version](http://img.shields.io/gem/v/kindara.svg?style=flat-square)](https://rubygems.org/gems/kindara)
 
 
-This gem will allow users to access her own Kindara data through the Kindara API.
+This gem will allow users to access her own Kindara cycle and day data through the Kindara API.
 
 Using
 =====
