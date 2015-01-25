@@ -13,6 +13,9 @@ module Kindara
       {"token" => get_token, "cycle_day" => "yes"}
     end
 
+    def to_hash_with_chart_data
+      {"token" => get_token, "chart" => "yes"}
+    end
 
     private def get_token
       @request.call.fetch("token")

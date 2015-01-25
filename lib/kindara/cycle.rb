@@ -2,7 +2,7 @@ module Kindara
   class Cycle
 
     def self.pull(client)
-      Kindara::Request.new("cycle", "pull", client.to_hash).call.fetch("cycles").map do |cycle|
+      Kindara::Request.new("cycle", "pull", client.to_hash_with_chart_data).call.fetch("cycles").map do |cycle|
         new(cycle)
       end
     end
