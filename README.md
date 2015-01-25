@@ -1,14 +1,14 @@
 kindara
 --------
 
-  - [![Quality](http://img.shields.io/codeclimate/github/krainboltgreene/kindara.gem.svg?style=flat-square)](https://codeclimate.com/github/krainboltgreene/kindara.gem)
-  - [![Coverage](http://img.shields.io/codeclimate/coverage/github/krainboltgreene/kindara.gem.svg?style=flat-square)](https://codeclimate.com/github/krainboltgreene/kindara.gem)
-  - [![Build](http://img.shields.io/travis-ci/krainboltgreene/kindara.gem.svg?style=flat-square)](https://travis-ci.org/krainboltgreene/kindara.gem)
-  - [![Dependencies](http://img.shields.io/gemnasium/krainboltgreene/kindara.gem.svg?style=flat-square)](https://gemnasium.com/krainboltgreene/kindara.gem)
+  - [![Quality](http://img.shields.io/codeclimate/github/machikoyasuda/kindara.gem.svg?style=flat-square)](https://codeclimate.com/github/machikoyasuda/kindara.gem)
+  - [![Coverage](http://img.shields.io/codeclimate/coverage/github/machikoyasuda/kindara.gem.svg?style=flat-square)](https://codeclimate.com/github/machikoyasuda/kindara.gem)
+  - [![Build](http://img.shields.io/travis-ci/machikoyasuda/kindara.gem.svg?style=flat-square)](https://travis-ci.org/machikoyasuda/kindara.gem)
+  - [![Dependencies](http://img.shields.io/gemnasium/machikoyasuda/kindara.gem.svg?style=flat-square)](https://gemnasium.com/machikoyasuda/kindara.gem)
   - [![Downloads](http://img.shields.io/gem/dtv/kindara.svg?style=flat-square)](https://rubygems.org/gems/kindara)
-  - [![Tags](http://img.shields.io/github/tag/krainboltgreene/kindara.gem.svg?style=flat-square)](http://github.com/krainboltgreene/kindara.gem/tags)
-  - [![Releases](http://img.shields.io/github/release/krainboltgreene/kindara.gem.svg?style=flat-square)](http://github.com/krainboltgreene/kindara.gem/releases)
-  - [![Issues](http://img.shields.io/github/issues/krainboltgreene/kindara.gem.svg?style=flat-square)](http://github.com/krainboltgreene/kindara.gem/issues)
+  - [![Tags](http://img.shields.io/github/tag/machikoyasuda/kindara.gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara.gem/tags)
+  - [![Releases](http://img.shields.io/github/release/machikoyasuda/kindara.gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara.gem/releases)
+  - [![Issues](http://img.shields.io/github/issues/machikoyasuda/kindara.gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara.gem/issues)
   - [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
   - [![Version](http://img.shields.io/gem/v/kindara.svg?style=flat-square)](https://rubygems.org/gems/kindara)
 
@@ -72,7 +72,7 @@ This Code of Conduct is adapted from the [Contributor Covenant](http:contributor
 License
 =======
 
-Copyright (c) 2014 Kurtis Rainbolt-Greene
+Copyright (c) 2014 Machiko Yasuda
 
 MIT License
 

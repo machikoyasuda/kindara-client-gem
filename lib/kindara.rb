@@ -1,5 +1,5 @@
-require 'http'
-require 'json'
+require "http"
+require "json"
 
 module Kindara
   require_relative "kindara/version"
