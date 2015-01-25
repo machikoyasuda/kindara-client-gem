@@ -1,9 +1,10 @@
 module Kindara
   class Account
 
-    def self.authenticate(email, password)
-      account = Kindara::Request.new("account", "auth", {"email" => email, "password" => password}).call
-      new(account.fetch("name"))
+    # singleton method goes at the top
+    def self.info(client)
+      request = Kindara::Request.new("account", "info", client.to_hash).call
+      new(request.fetch("name"))
     end
 
     def initialize(name)

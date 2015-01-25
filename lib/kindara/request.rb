@@ -10,7 +10,7 @@ module Kindara
     end
 
     def call
-      JSON.parse(HTTP.post(uri, :json => payload).to_s)
+      JSON.parse(HTTP.post(uri, :form => payload).to_s)
     end
 
     def uri
