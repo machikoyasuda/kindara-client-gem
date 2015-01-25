@@ -8,11 +8,11 @@ require "kindara/version"
 Gem::Specification.new do |spec|
   spec.name          = "kindara"
   spec.version       = Kindara::VERSION
-  spec.authors       = ["Kurtis Rainbolt-Greene"]
-  spec.email         = ["me@kurtisrainboltgreene.name"]
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Machiko Yasuda"]
+  spec.email         = ["machikoyasuda@gmail.com"]
+  spec.summary       = %q{An API client for the kindara service}
   spec.description   = spec.summary
-  spec.homepage      = "http://krainboltgreene.github.io/kindara"
+  spec.homepage      = "http://machikoyasuda.github.io/kindara"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"]
