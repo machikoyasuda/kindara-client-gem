@@ -9,9 +9,10 @@ module Kindara
       {"token" => get_token}
     end
 
-    private def payload
-      {"email" => @email, "password" => @password}
+    def to_hash_with_cycle_days
+      {"token" => get_token, "cycle_day" => "yes"}
     end
+
 
     private def get_token
       @request.call.fetch("token")

@@ -2,7 +2,7 @@ module Kindara
   class Day
 
     def self.pull(client)
-      Kindara::Request.new("day", "pull", client.to_hash).call.fetch("days").map do |day|
+      Kindara::Request.new("day", "pull", client.to_hash_with_cycle_days).call.fetch("days").map do |day|
         new(day)
       end
     end
