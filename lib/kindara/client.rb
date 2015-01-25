@@ -1,15 +1,12 @@
 module Kindara
   class Client
 
-    def initialize(email, password)
-      @email = email
-      @password = password
-      @request = Kindara::Request.new("account", "auth", payload)
-      @token = get_token
+    def initialize(request)
+      @request = request
     end
 
     def to_hash
-      {"token" => @token}
+      {"token" => get_token}
     end
 
     private def payload
