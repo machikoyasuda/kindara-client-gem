@@ -2,20 +2,20 @@ require "spec_helper"
 
 describe Kindara::Account do
   let("account") do
-    described_class.new(account_name)
+    described_class.new(account_username)
   end
 
-  let("account_name") do
+  let("account_username") do
     "Holly"
   end
 
-  describe "#name" do
-    let("name") do
-      account.name
+  describe "#username" do
+    let("username") do
+      account.username
     end
 
     it "returns the name" do
-      expect(name).to eq(account_name)
+      expect(username).to eq(account_username)
     end
   end
 end
