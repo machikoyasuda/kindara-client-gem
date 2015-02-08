@@ -15,21 +15,21 @@ Kindara
 
 This gem will allow users to access her own Kindara cycle and day data through the Kindara API.
 
-Using
+Using on Command Line
 =====
 
-require "kindara"
-client = Kindara::Account.authenticate("machikoyasuda@gmail.com", "")
-account = Kindara::Account.info(client)
-days = Kindara::Day.pull(client)
-cycles = Kindara::Cycle.pull(client)
+`require "kindara"`
+`client = Kindara::Account.authenticate("YOUR-EMAIL", "YOUR-PASSWORD")`
+`account = Kindara::Account.info(client)`
+`days = Kindara::Day.pull(client)`
+`cycles = Kindara::Cycle.pull(client)`
 
 Installing
 ==========
 
 Add this line to your application's Gemfile:
 
-    gem "kindara", "~> 1.0"
+    gem 'kindara-client', github: 'machikoyasuda/kindara-client-gem'
 
 And then execute:
 
