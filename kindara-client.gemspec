@@ -6,7 +6,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "kindara/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "kindara"
+  spec.name          = "kindara-client"
   spec.version       = Kindara::VERSION
   spec.authors       = ["Machiko Yasuda"]
   spec.email         = ["machikoyasuda@gmail.com"]
