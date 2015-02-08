@@ -18,11 +18,59 @@ This gem will allow users to access her own Kindara cycle and day data through t
 Using on Command Line
 =====
 
-`require "kindara"`
-`client = Kindara::Account.authenticate("YOUR-EMAIL", "YOUR-PASSWORD")`
-`account = Kindara::Account.info(client)`
-`days = Kindara::Day.pull(client)`
-`cycles = Kindara::Cycle.pull(client)`
+Require gem
+  `require "kindara"`
+
+Authenticate
+  `client = Kindara::Account.authenticate("YOUR-EMAIL", "YOUR-PASSWORD")`
+
+Pull account information
+  `account = Kindara::Account.info(client)`
+
+Account information returns
+  - `average_cycle` [float]
+  - `average_luteal` [float]
+  - `average_period` [float]
+  - `username` [string]
+
+Pull all day data
+  `days = Kindara::Day.pull(client)`
+
+Day data returns a series of Day objects
+  - `date` [date]
+  - `updated` [date]
+  - `cycle_day` [integer]
+  - `temperature` [float]
+  - `questionable_temp` [boolean]
+  - `temp_shift` [boolean]
+  - `no_fluid` [boolean]
+  - `fluid_sticky` [integer]
+  - `fluid_creamy` [integer]
+  - `fluid_eggwhite` [integer]
+  - `fluid_watery` [integer]
+  - `cervix_height` [integer]
+  - `cervix_openness` [integer]
+  - `cervix_firmness` [integer]
+  - `opk` [0,1]
+  - `peak_day` [boolean]
+  - `sex` [0,1,2]
+  - `first_day` [boolean]
+  - `menstruation`
+  - `custom` [Array]
+  - `notes`
+
+Pull all cycle data
+  `cycles = Kindara::Cycle.pull(client)`
+
+Cycle data returns a series of Cycle objects
+  - `bardo` [boolean]
+  - `coverline` [integer or nil]
+  - `custom` [Array]
+  - `end` [date]
+  - `pregnancy` [boolean]
+  - `start` [date]
+  - `temp_shift` [date]
+  - `updated` [date]
 
 Installing
 ==========
