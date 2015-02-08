@@ -1,8 +1,15 @@
 require "spec_helper"
 
 describe Kindara::Account do
+  let("payload") do
+    { "username" => "Holly",
+      "average_cycle" => 32,
+      "average_luteal" => 14,
+      "average_period" => 3}
+  end
+
   let("account") do
-    described_class.new(account_username)
+    described_class.new(payload)
   end
 
   let("account_username") do
