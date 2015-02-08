@@ -18,8 +18,11 @@ This gem will allow users to access her own Kindara cycle and day data through t
 Using
 =====
 
-TODO: Write usage instructions here
-
+require "kindara"
+client = Kindara::Account.authenticate("machikoyasuda@gmail.com", "")
+account = Kindara::Account.info(client)
+days = Kindara::Day.pull(client)
+cycles = Kindara::Cycle.pull(client)
 
 Installing
 ==========
