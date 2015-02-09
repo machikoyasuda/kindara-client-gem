@@ -32,12 +32,30 @@ module Kindara
     end
 
     def to_hash
-      hash = {}
-      instance_variables.each do |variable|
-        value = instance_variable_get(variable)
-        hash[variable.to_s.delete("@")] = value
-      end
-      hash
+      {
+        "date" => @date,
+        "updated" => @updated,
+        "cycle_day" => @cycle_day,
+        "temperature" => @temperature,
+        "questionable_temp" => @questionable_temp,
+        "temp_shift" => @temp_shift,
+        "no_fluid" => @no_fluid,
+        "fluid_sticky" => @fluid_sticky,
+        "fluid_creamy" => @fluid_creamy,
+        "fluid_eggwhite" => @fluid_eggwhite,
+        "fluid_watery" => @fluid_watery,
+        "cervix_height" => @cervix_height,
+        "cervix_openness" => @cervix_openness,
+        "cervix_firmness" => @cervix_firmness,
+        "opk" => @opk,
+        "peak_day" => @peak,
+        "sex" => @sex,
+        "first_day" => @first,
+        "menstruation" => @menstruation,
+        "custom" => @custom,
+        "notes" => @notes
+      }
     end
+
   end
 end
