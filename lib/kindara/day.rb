@@ -31,5 +31,13 @@ module Kindara
       @notes = payload.fetch("notes", nil)
     end
 
+    def to_hash
+      hash = {}
+      instance_variables.each do |variable|
+        value = instance_variable_get(variable)
+        hash[variable.to_s.delete("@")] = value
+      end
+      hash
+    end
   end
 end
