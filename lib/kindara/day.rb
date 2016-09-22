@@ -34,12 +34,12 @@ module Kindara
     def to_hash
       {
         "date" => @date,
-        "updated" => @updated,
+        "updated_at" => @updated,
         "cycle_day" => @cycle_day,
         "temperature" => @temperature,
         "questionable_temp" => @questionable_temp,
         "temp_shift" => @temp_shift,
-        "no_fluid" => @no_fluid,
+        "fluid_none" => @no_fluid,
         "fluid_sticky" => @fluid_sticky,
         "fluid_creamy" => @fluid_creamy,
         "fluid_eggwhite" => @fluid_eggwhite,

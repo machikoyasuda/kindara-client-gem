@@ -123,7 +123,7 @@ This Code of Conduct is adapted from the [Contributor Covenant](http:contributor
 License
 =======
 
-Copyright (c) 2014 Machiko Yasuda
+Copyright (c) 2016 Machiko Yasuda
 
 MIT License
 
