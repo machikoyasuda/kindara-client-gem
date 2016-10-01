@@ -5,7 +5,7 @@
 
 
 
-This gem will allow users to access their own [Kindara](http://kindara.com) cycle and day data through the Kindara API. Kindara is a popular period-tracking, fertility awareness method application that allows users to save daily temperature and other data points to track their health.
+The [Kindara Client API gem](https://rubygems.org/gems/kindara-client) will allow users to access their own [Kindara](http://kindara.com) cycle and day data through the Kindara API. Kindara is a popular period-tracking, fertility awareness method application that allows users to save daily temperature and other data points to track their health.
 
 ## Installing in your application
 
