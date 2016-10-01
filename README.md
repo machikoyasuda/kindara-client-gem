@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself with:
 
-    $ gem install kindara
+    $ gem install kindara-client
 
 Using on command line
 =====
