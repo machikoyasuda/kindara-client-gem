@@ -1,55 +1,57 @@
-Kindara API Ruby Gem
+# Kindara API Ruby Gem
 --------
 
-  - [![Code Climate](https://codeclimate.com/github/machikoyasuda/kindara-client-gem/badges/gpa.svg)](https://codeclimate.com/github/machikoyasuda/kindara-client-gem) [![Test Coverage](https://codeclimate.com/github/machikoyasuda/kindara-client-gem/badges/coverage.svg)](https://codeclimate.com/github/machikoyasuda/kindara-client-gem)
-  - [![Dependency Status](https://gemnasium.com/machikoyasuda/kindara-client-gem.svg)](https://gemnasium.com/machikoyasuda/kindara-client-gem)
+  - [![Code Climate](https://codeclimate.com/github/machikoyasuda/kindara-client-gem/badges/gpa.svg)](https://codeclimate.com/github/machikoyasuda/kindara-client-gem) [![Test Coverage](https://codeclimate.com/github/machikoyasuda/kindara-client-gem/badges/coverage.svg)](https://codeclimate.com/github/machikoyasuda/kindara-client-gem) [![Dependency Status](https://gemnasium.com/machikoyasuda/kindara-client-gem.svg)](https://gemnasium.com/machikoyasuda/kindara-client-gem)
   - [![Issues](http://img.shields.io/github/issues/machikoyasuda/kindara-client-gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara-client-gem/issues)  [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 
 This gem will allow users to access their own [Kindara](http://kindara.com) cycle and day data through the Kindara API. Kindara is a popular period-tracking, fertility awareness method application that allows users to save daily temperature and other data points to track their health.
 
-Installing
-==========
+## Installing in your application
 
-Add this line to your application's Gemfile:
+1. Add this line to your application's Gemfile:
 
-    gem 'kindara-client', github: 'machikoyasuda/kindara-client-gem'
+    ```gem 'kindara-client', github: 'machikoyasuda/kindara-client-gem'```
 
-And then execute:
+2. And then execute:
 
-    $ bundle
+    ````$ bundle```
 
-Or install it yourself with:
+## Installing it yourself
 
-    $ gem install kindara-client
+```$ gem install kindara-client```
 
-Using on command line
-=====
+## Using on command line
 
-Require gem
+Require the gem:
 
 `require "kindara"`
 
-Authenticate yourself
+Authenticate yourself with:
 
-  `client = Kindara::Account.authenticate("YOUR-EMAIL", "YOUR-PASSWORD")`
+`client = Kindara::Account.authenticate("YOUR-EMAIL", "YOUR-PASSWORD")`
 
-Pull account information
+Pull account information and save that as an Kindara::Account object:
 
-  `account = Kindara::Account.info(client)`
+`account = Kindara::Account.info(client)`
 
-Understanding the data
-====
+Get all Days data as an Array of Kindara::Day objects:
 
-Account information returns
+`days = Kindara::Day.pull(client)`
+
+Get all Cycles data as an Array of Kindara::Cycle objects:
+
+`cycles = Kindara::Cycle.pull(client)`
+
+## Understanding the data
+
+### Account:
   - `average_cycle` [float]
   - `average_luteal` [float]
   - `average_period` [float]
   - `username` [string]
 
-Pull all day data
-  `days = Kindara::Day.pull(client)`
-
+### Days:
 Day data returns a series of Day objects
   - `date` [date]
   - `updated` [date]
@@ -73,9 +75,7 @@ Day data returns a series of Day objects
   - `custom` [Array]
   - `notes`
 
-Pull all cycle data
-  `cycles = Kindara::Cycle.pull(client)`
-
+### Cycle:  
 Cycle data returns a series of Cycle objects
   - `bardo` [boolean]
   - `coverline` [integer or nil]
