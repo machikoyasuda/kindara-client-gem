@@ -25,7 +25,7 @@ This gem will allow users to access their own [Kindara](http://kindara.com) cycl
 
 Require the gem:
 
-`require "kindara"`
+`require "kindara-client"`
 
 Authenticate yourself with:
 
