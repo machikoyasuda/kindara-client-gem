@@ -28,7 +28,7 @@ Using on command line
 
 Require gem
 
-`require "kindara"`
+`require "kindara-client"`
 
 Authenticate yourself
 
