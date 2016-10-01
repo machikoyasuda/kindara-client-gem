@@ -10,10 +10,10 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: #73abaf;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    background-color: rgba(255, 255, 0, 0.13); }
 
 .btn {
   display: inline-block;
@@ -56,8 +56,11 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background: #73abaf; /* Old Browsers */
+  background: -webkit-linear-gradient(top,#73abaf,#c7fff1); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top,#73abaf,#c7fff1); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top,#73abaf,#c7fff1); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, #73abaf, #c7fff1); /*Standard*/ }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -112,7 +115,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #73abaf; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
