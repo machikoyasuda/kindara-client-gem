@@ -1,9 +1,6 @@
 # Kindara API Ruby Gem
---------
 
   [![Gem Version](https://badge.fury.io/rb/kindara-client.svg)](https://badge.fury.io/rb/kindara-client)[![Issues](http://img.shields.io/github/issues/machikoyasuda/kindara-client-gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara-client-gem/issues)  [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-
-
 
 The [Kindara Client API gem](https://rubygems.org/gems/kindara-client) will allow users to access their own [Kindara](http://kindara.com) cycle and day data through the Kindara API. Kindara is a popular period-tracking, fertility awareness method application that allows users to save daily temperature and other data points to track their health.
 
@@ -15,43 +12,50 @@ The [Kindara Client API gem](https://rubygems.org/gems/kindara-client) will allo
 
 2. And then execute:
 
-    ```$ bundle```
+    ```bundle```
 
-## Installing it yourself
+## Installing it on your machine
 
-```$ gem install kindara-client```
+```gem install kindara-client```
 
-## Using on command line
+## Installing it on command line
 
-Require the gem:
+- Require the gem:
 
 `require "kindara-client"`
 
-Authenticate yourself with:
+## Using the gem
+
+- Authenticate yourself with:
 
 `client = Kindara::Account.authenticate("YOUR-EMAIL", "YOUR-PASSWORD")`
 
-Pull account information and save that as an Kindara::Account object:
+- Pull account information and save that as an Kindara::Account object:
 
 `account = Kindara::Account.info(client)`
 
-Get all Days data as an Array of Kindara::Day objects:
+- Get all Days data as an Array of Kindara::Day objects:
 
 `days = Kindara::Day.pull(client)`
 
-Get all Cycles data as an Array of Kindara::Cycle objects:
+- Get all Cycles data as an Array of Kindara::Cycle objects:
 
 `cycles = Kindara::Cycle.pull(client)`
 
 ## Understanding the data
 
-### Account:
+|model|description|code|
+|-----|-----------|----|
+|account|Your personal account data|Kindara::Account|
+|days|All data from each day|Kindara::Day|
+|cycles|All data from each cycle|Kindara::Cycle|
+#### Account:
   - `average_cycle` [float]
   - `average_luteal` [float]
   - `average_period` [float]
   - `username` [string]
 
-### Days:
+#### Days:
 Day data returns a series of Day objects
   - `date` [date]
   - `updated` [date]
@@ -75,7 +79,7 @@ Day data returns a series of Day objects
   - `custom` [Array]
   - `notes`
 
-### Cycle:  
+#### Cycle:  
 Cycle data returns a series of Cycle objects
   - `bardo` [boolean]
   - `coverline` [integer or nil]
