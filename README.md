@@ -20,8 +20,6 @@ The [Kindara Client API gem](https://rubygems.org/gems/kindara-client) will allo
 
 ## Installing it on command line
 
-- Require the gem:
-
 `require "kindara-client"`
 
 ## Using the gem
@@ -49,6 +47,7 @@ The [Kindara Client API gem](https://rubygems.org/gems/kindara-client) will allo
 |account|Your personal account data|Kindara::Account|
 |days|All data from each day|Kindara::Day|
 |cycles|All data from each cycle|Kindara::Cycle|
+
 #### Account:
   - `average_cycle` [float]
   - `average_luteal` [float]
