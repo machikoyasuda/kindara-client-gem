@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.version       = Kindara::VERSION
   spec.authors       = ["Machiko Yasuda"]
   spec.email         = ["machikoyasuda@gmail.com"]
-  spec.summary       = %q{An API client for the kindara service}
-  spec.description   = spec.summary
+  spec.summary       = %q{An API client for the Kindara mobile application}
+  spec.description   = "Making it easier to access personal Kindara data"
   spec.homepage      = "http://machikoyasuda.github.io/kindara"
   spec.license       = "MIT"
 
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = Dir["test/**/*", "spec/**/*"]
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "http", "0.7.1"
+  spec.add_runtime_dependency "http", "2.0.3"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rake", "~> 10.1"

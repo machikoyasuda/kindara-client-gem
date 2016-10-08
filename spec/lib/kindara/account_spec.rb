@@ -25,4 +25,10 @@ describe Kindara::Account do
       expect(username).to eq(account_username)
     end
   end
+
+  describe "#average_cycle" do
+    it "returns a number" do
+      expect(account.average_cycle).to be_kind_of(Integer)
+    end
+  end
 end
