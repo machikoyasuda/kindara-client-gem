@@ -1,6 +1,6 @@
 # Kindara API Ruby Gem
 
-  [![Gem Version](https://badge.fury.io/rb/kindara-client.svg)](https://badge.fury.io/rb/kindara-client)[![Issues](http://img.shields.io/github/issues/machikoyasuda/kindara-client-gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara-client-gem/issues)  [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+  [![Build Status](https://travis-ci.org/machikoyasuda/kindara-client-gem.svg?branch=master)](https://travis-ci.org/machikoyasuda/kindara-client-gem)[![Gem Version](https://badge.fury.io/rb/kindara-client.svg)](https://badge.fury.io/rb/kindara-client)[![Issues](http://img.shields.io/github/issues/machikoyasuda/kindara-client-gem.svg?style=flat-square)](http://github.com/machikoyasuda/kindara-client-gem/issues)  [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 The [Kindara Client API gem](https://rubygems.org/gems/kindara-client) will allow users to access their own [Kindara](http://kindara.com) cycle and day data through the Kindara API. Kindara is a popular period-tracking, fertility awareness method application that allows users to save daily temperature and other data points to track their health.
 
