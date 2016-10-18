@@ -8,15 +8,15 @@ The [Kindara Client API gem](https://rubygems.org/gems/kindara-client) will allo
 
 1. Add this line to your application's Gemfile:
 
-    ```gem 'kindara-client', github: 'machikoyasuda/kindara-client-gem'```
+    `gem 'kindara-client', github: 'machikoyasuda/kindara-client-gem'
 
 2. And then execute:
 
-    ```bundle```
+    `bundle`
 
 ## Installing it on your machine
 
-```gem install kindara-client```
+`gem install kindara-client`
 
 ## Installing it on command line
 
