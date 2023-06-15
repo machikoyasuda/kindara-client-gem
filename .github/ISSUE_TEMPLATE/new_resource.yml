@@ -1,5 +1,5 @@
 name: Request to add a new resource
-about: Use this issue to request to add a new resource to calitp.org/resources
+description: Use this issue to request to add a new resource to calitp.org/resources
 title: "New resource request"
 labels: resource
 body:
