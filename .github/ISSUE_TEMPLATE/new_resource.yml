@@ -1,0 +1,73 @@
+name: Request to add a new resource
+about: Use this issue to request to add a new resource to calitp.org/resources
+title: "New resource request"
+labels: resource
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The title is used in list views on the home page and calitp.org/resources
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Asset URL
+      description: The URL of the resource
+      placeholder: ex. link to a PDF from Google Drive
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Category
+      description: What category is this resource in?
+      multiple: false
+      options:
+        - Case studies
+        - Fact sheets & overviews
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Tag
+      description: What tag is this resource in?
+      multiple: false
+      options:
+        - Contactless payments
+        - Benefits
+        - GTFS
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Date - Year
+      description: What year did this resource get published?
+      multiple: false
+      options:
+        - 2023
+        - 2022
+        - 2021
+        - 2020
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Date - Month
+      description: What month did this resource get published?
+      multiple: false
+      options:
+        - 01
+        - 02
+        - 03
+        - 04
+        - 05
+        - 06
+        - 07
+        - 08
+        - 09
+        - 10
+        - 11
+        - 12
+    validations:
+      required: true
