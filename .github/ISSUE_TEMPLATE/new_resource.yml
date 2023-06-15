@@ -1,5 +1,5 @@
 name: Request to add a new resource
-description: Use this issue to request to add a new resource to [https://calitp.org/resources](https://calitp.org/resources)
+description: Use this issue to request to add a new resource to https://calitp.org/resources
 title: "New resource request"
 labels: resource
 body:
@@ -7,7 +7,7 @@ body:
     id: title
     attributes:
       label: Title
-      description: The title is used in list views on the home page and calitp.org/resources
+      description: The title is used in list views on the home page and [https://calitp.org/resources](https://calitp.org/resources)
     validations:
       required: true
   - type: input
