@@ -40,13 +40,13 @@ body:
       label: Date - Year
       description: The date is used for both internal and external press releases.
       multiple: false
-    validations:
-      required: true
       options:
         - 2023
         - 2022
         - 2021
         - 2020
+    validations:
+      required: true
   - type: dropdown
     id: date_month
     validations:
