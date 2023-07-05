@@ -1,7 +1,9 @@
 name: Request to add a new press release or press link
 description: Use this issue to request to add a new press release or press link to Calitp.org
 title: "New press request"
-labels: press
+labels:
+  - content
+  - press
 body:
   - type: input
     id: title
@@ -36,6 +38,8 @@ body:
         - GTFS
   - type: dropdown
     id: date_year
+    validations:
+      required: true
     attributes:
       label: Date - Year
       description: The date is used for both internal and external press releases.
@@ -45,8 +49,6 @@ body:
         - 2022
         - 2021
         - 2020
-    validations:
-      required: true
   - type: dropdown
     id: date_month
     validations:
