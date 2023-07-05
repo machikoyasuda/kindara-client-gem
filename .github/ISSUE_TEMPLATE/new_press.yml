@@ -5,11 +5,11 @@ labels: press
 body:
   - type: input
     id: title
+    validations:
+      required: true
     attributes:
       label: Title
       description: The title is used in list views on the home page and [https://calitp.org/press](https://calitp.org/press)
-    validations:
-      required: true
   - type: input
     id: heading
     attributes:
@@ -17,13 +17,15 @@ body:
       description: Optional heading if different from the title, used on the page for this press release
   - type: input
     id: link
+    validations:
+      required: true
     attributes:
       label: Asset URL
       description: "The URL of the resource: link to Google Drive content of press release, or external link to a press item outside of Cal-ITP"
-    validations:
-      required: true
   - type: dropdown
     id: tag
+    validations:
+      required: true
     attributes:
       label: Tag
       description: What tag is this press item in?
@@ -32,16 +34,14 @@ body:
         - Contactless payments
         - Benefits
         - GTFS
-    validations:
-      required: true
   - type: dropdown
     id: date_year
     attributes:
       label: Date - Year
       description: The date is used for both internal and external press releases.
       multiple: false
-      validations:
-        required: true
+    validations:
+      required: true
       options:
         - 2023
         - 2022
@@ -49,6 +49,8 @@ body:
         - 2020
   - type: dropdown
     id: date_month
+    validations:
+      required: true
     attributes:
       label: Date - Month
       description: The date is used for press releases.
@@ -68,6 +70,8 @@ body:
         - "12"
   - type: input
     id: location
+    validations:
+      required: true
     attributes:
       label: Location
       description: The location is used for press releases. The default is Sacramento, CA
