@@ -9,7 +9,6 @@ Gem::Specification.new do |spec|
   spec.name          = "kindara-client"
   spec.version       = Kindara::VERSION
   spec.authors       = ["Machiko Yasuda"]
-  spec.email         = ["machikoyasuda@gmail.com"]
   spec.summary       = %q{An API client for the Kindara mobile application}
   spec.description   = "Making it easier to access personal Kindara data"
   spec.homepage      = "http://machikoyasuda.github.io/kindara"
